@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/dist/style.css">
+</head>
+<body class="bg-gray-900">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 h-[100vh] bg-cover bg-[url('dist/images/zig_zag-removebg-preview.png')]">
+        <div class="sticky top-0 bg-gray-700 z-50 flex items-center justify-between p-4 md:p-6 w-full text-white">
+            
+            <!-- Logo -->
+            <img class="w-[30px]" src="https://blockfuselabs.com/assets/blockfuse-logo-BgIWHfHT.png" alt="logo">
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex gap-6 text-gray-300 text-[1rem]">
+                <li class="cursor-pointer hover:text-white transition duration-300">About Us</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Team</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">BootCamp</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Event</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Alumni</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Blog</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Open Source</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Contact Us</li>
+                <li class="cursor-pointer hover:text-white transition duration-300">Faucet</li>
+            </ul>
+
+            <!-- Buttons -->
+            <div class="hidden md:flex gap-10">
+                <button class="border p-2 bg-black border-purple-600 w-28">Donate</button>
+                <div class="flex items-center bg-gradient-to-t from-purple-600 via-purple-500 to-purple-400 text-white p-2 rounded-lg">
+                    <a href="https://www.blockfuselabs.com/bootcamp" class="pr-2">Apply Now</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+                        <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden p-2 bg-gray-800 rounded-lg" id="menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+                    <path d="M200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80Z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-gray-800 p-4 text-white text-center space-y-2" id="mobile-menu">
+            <a href="#" class="block py-2 hover:text-purple-400">About Us</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Team</a>
+            <a href="#" class="block py-2 hover:text-purple-400">BootCamp</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Event</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Alumni</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Blog</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Open Source</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Contact Us</a>
+            <a href="#" class="block py-2 hover:text-purple-400">Faucet</a>
+            <button class="border p-2 bg-black border-purple-600 w-full mt-2">Donate</button>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="text-center mt-14 px-6">
+            <div class="relative text-gray-200">
+                <img class="absolute max-w-[800px] left-[50%] transform -translate-x-1/2 opacity-25 h-auto w-full" src="https://blockfuselabs.com/assets/zigzag-q2OLhjMn.svg" alt="">
+                <h1 class="text-4xl md:text-6xl text-gray-200">
+                    Unlock the Future with <a class="text-purple-600" href="">Blockchain</a>
+                </h1>
+                <p class="text-lg md:text-xl mt-4">
+                    Transform your skills and career with comprehensive <br class="hidden md:block">
+                    training designed to lead the digital revolution.
+                </p>
+                <div class="flex items-center justify-center mt-10 bg-gradient-to-r from-purple-600 via-purple-500 to-purple-400 text-white p-3 w-[300px] mx-auto rounded-lg">
+                    <button>Explore our BootCamps</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+                        <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Students section -->
+    <section>
+        <div class="container text-center justify-center items-center mt-0">
+            <div class="p-8">
+                <p class="text-left text-center text-[1.3rem] text-gray-100 ml-[-5%]">At Blockfuse Labs, we see education as a journey. <br>
+                    Whether you're new to blockchain or an experienced developer, <br>
+                    we offer resources, expert instructors,and tools <br> for every stage of your growth.
+                </p>
+                    <img class="mt-10" src="https://blockfuselabs.com/assets/Frame-10-AmuGo1Ak.png" alt="Students">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootcamp section -->
+    <section>
+        <div class="text-center justify-center">
+            <h1 class="text-white font-bold text-3xl">Our BootCamps</h1>
+            <div class="flex p-36 justify-between">
+                <div class="justify-center text-left border border-purple-600 p-4 w-[490px] text-gray-200 bg-black">
+                    <h2 class="font-bold text-center items-center justify-center text-[1.4rem] absolute left-[185px] top-[1890px]">Web2 for Web3 Preparatory Bootcamp</h2>
+                    <img class="w-[450px] h-[235px]" src="https://img.freepik.com/premium-photo/dark-purple-background-with-subtle-gradient-rough-texture-adding-sense-ruggedness_220770-85056.jpg" alt="">
+                    <p class="mt-10">Learn the essentials of modern web development in HTML, <br>
+                        CSS, Tailwind CSS, JavaScript, and Node.js/React. This program <br> guides you through creating interactive, responsive websites, <br>
+                         providing the skills and confidence to start building real-world <br>
+                          projects. Perfect for beginners ready to launch their web <br>
+                           journey!</p>
+                           <div class="flex items-center ml-[15%] mt-[100px] bg-gradient-to-r from-purple-600 via-purple-500 to-purple-400 text-white p-3 w-[300px] text-center justify-center">
+                            <button>JOin the waitlist</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="54px" fill="white">
+                                <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                            </svg>
+                        </div> 
+                        <b class="text-sky-400 mt-14">NOTE: Registration for Cohort III will start on March 1st.</b>
+                </div>
+                <div class="justify-center text-left border border-purple-600 p-4 w-[490px] text-gray-200 bg-black">
+                    <h2 class="font-bold text-center items-center justify-center text-[1.4rem] absolute right-[300px] top-[1890px]">Web3 Bootcamp
+                    </h2>
+                    <img class="w-[450px] h-[235px]" src="data:image/jpeg;base64,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" alt="">
+                   <p class="mt-10">Unlock the future of the internet with our Web3 Bootcamp! <br>
+                     Learn blockchain fundamentals, smart contracts, and dApps <br>
+                      to build decentralized applications. Ideal for beginners eager <br>
+                       to explore Web3 technology and launch into the world of <br>
+                        blockchain development!</p>
+                        <div class="flex items-center ml-[15%] mt-[100px] bg-gradient-to-r from-purple-600 via-purple-500 to-purple-400 text-white p-3 w-[300px] text-center justify-center">
+                            <button>Join the waitlist</button>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="54px" fill="white">
+                                <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+                            </svg>
+                        </div>
+                           <b class="text-sky-400 mt-14">NOTE: Registration for Cohort III will start on March 1st.
+                        </b>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <script>
+        // Toggle Mobile Menu
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
